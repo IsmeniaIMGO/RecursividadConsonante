@@ -1,11 +1,10 @@
 package Consonante.test;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class PruebaConsonante {
 	
-	static String mensaje = "programacion";
+	static String mensaje = "te quiero mucho Juana uwu";
 
 	public static void main(String[] args) {
 		//creamos una lista vacia
@@ -13,7 +12,7 @@ public class PruebaConsonante {
 		//llamamos al metodo
 		buscarConsonante(0, consonantes);	
 		//imprimimos el metodo
-		System.out.println(consonantes);
+		System.out.println("\n"+"Consonantes: "+consonantes+"\n");
 	}
 	/**
 	 * 22. Metodo que devuelve solamente las consonantes de una cadena de caracteres.
@@ -45,6 +44,6 @@ public class PruebaConsonante {
 	 */
 	private static boolean esConsonante(char letra) {
 		//que si la letra recibida tiene uno de estas consonantes sin importar si es mayuscula o minuscula
-		return "bcdfghjklmnñpqrstvwxyz".contains(String.valueOf(letra).toLowerCase());
+		return "bcdfghjklmnï¿½pqrstvwxyz".contains(String.valueOf(letra).toLowerCase());
 	}
 }
