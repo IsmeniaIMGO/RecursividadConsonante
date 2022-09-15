@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class PruebaConsonante {
 	
-	static String mensaje = "te quiero mucho Juana uwu";
+	static String mensaje = "programacion";
 
 	public static void main(String[] args) {
 		//creamos una lista vacia
